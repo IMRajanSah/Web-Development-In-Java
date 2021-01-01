@@ -1,0 +1,76 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  width:100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input:focus{
+    outline: none;
+}
+.login-container{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.image{
+  position: absolute;
+  width: 10%;
+  padding: 20px 20px;
+  height: auto;
+}
+.header-img img{
+  position: relative;
+  width: 100%;
+  height: 50%;
+  padding-top: 25px;
+  transform: scaleX(-1);
+}
+.comment{
+  position: absolute;
+  font-size: 20px;
+  height: 7vh;
+  width: 30%;
+  background-color: rgb(44, 201, 44);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+justify-content: center;
+  color: white;
+}
+.sign_in{
+  position: absolute;
+  right: 40vh;
+  top: 45vh;
+}
+label{
+  font-size: 15px;
+}
+#user,#pass{
+  border: none;
+  border-bottom: 1px solid orange;
+  height: 23px;
+}
+#sign{
+  font-size: 20px;
+}
+#submit_button{
+  position: relative;
+  width: 110px;
+  height: 33px;
+  left: 27vh;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+#submit_button:hover{
+  background-color: rgb(151, 145, 145);
+}
